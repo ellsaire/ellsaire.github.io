@@ -1,0 +1,118 @@
+body {
+
+}
+
+p {
+padding: 0px;
+margin: 0px;
+}
+
+p.round {
+border: 1px solid lime;
+border-radius: 8px;
+background-color: purple;
+width: 30%;
+word-wrap: break-word;
+color: lime;
+}
+
+p.full_text {
+width: 624px;
+word-wrap: break-word;
+color: white;
+}
+
+p.in {
+width: 624px;
+word-wrap: break-word;
+color: black;
+text-indent: 48px;
+}
+
+div.div_round {
+border: 1px solid gold;
+border-radius: 8px;
+width: 35%;
+word-wrap: break-word;
+overflow: auto;
+}
+
+div.writing {
+width: 35%;
+word-wrap: break-word;
+overflow: auto;
+}
+
+.years {
+  position: relative;
+  display: inline-block;
+  color: lime;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: cyan;
+}
+
+div.center_pics {
+margin: auto;
+width: 60%;
+border: 5px red;
+border-radius: 18px;
+}
+
+img.upper_right {
+border: 5px red;
+border-radius:18px
+}
+
+hr{
+border: 3px red;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: lime;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: cyan;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255,0,0,1);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: green;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: cyan;
+}
+a:link {
+	color: cyan
+}
+a:visited {
+	color: darkturquoise
+}
+a:hover {
+	color: lime;
+}
+
+#teal_hover:hover {
+	background-color: darkgreen;
+	width: fit-content;
+}
+
+#teal_hover:hover a:visited{
+	background-color: darkgreen;
+	color: green;
+}
+
+body {
+  background-image: url("images/p1/space.jpg");
+}
