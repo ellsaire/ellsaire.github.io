@@ -94,13 +94,14 @@ border: 3px red;
   border-color: cyan;
 }
 a:link {
-	color: cyan
+	color: lime;
+	font-size: 20px;
 }
 a:visited {
-	color: darkturquoise
+	color: tomato
 }
 a:hover {
-	color: lime;
+	color: darkturquoise;
 }
 
 #teal_hover:hover {
@@ -110,7 +111,7 @@ a:hover {
 
 #teal_hover:hover a:visited{
 	background-color: darkgreen;
-	color: green;
+	color: darkturquoise;
 }
 
 body {
