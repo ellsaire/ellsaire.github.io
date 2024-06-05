@@ -7,13 +7,23 @@ padding: 0px;
 margin: 0px;
 }
 
+h1 {
+color:lightblue; 
+font-size:300%;
+}
+
 p.round {
-border: 1px solid lime;
-border-radius: 8px;
-background-color: purple;
+border: 2px solid darkgoldenrod;
+border-radius: 3px;
+background-color: royalblue;
 width: 30%;
 word-wrap: break-word;
-color: lime;
+color: white;
+}
+
+p.divider {
+color: white;
+font-size:125%;	
 }
 
 p.full_text {
@@ -30,11 +40,13 @@ text-indent: 48px;
 }
 
 div.div_round {
-border: 1px solid gold;
-border-radius: 8px;
-width: 35%;
+border: 2px solid darkgoldenrod;
+border-radius: 3px;
+background-color: royalblue;
+width: fit-content;
 word-wrap: break-word;
-overflow: auto;
+color: black;
+padding: 5px;
 }
 
 div.writing {
@@ -46,10 +58,10 @@ overflow: auto;
 .years {
   position: relative;
   display: inline-block;
-  color: lime;
-  border-style: ridge;
-  border-width: 3px;
-  border-color: cyan;
+  color: cyan;
+  border-style: hidden;
+  border-width: 8px;
+  border-color: white;
 }
 
 div.center_pics {
@@ -62,10 +74,6 @@ border-radius: 18px;
 img.upper_right {
 border: 5px red;
 border-radius:18px
-}
-
-hr{
-border: 3px red;
 }
 
 .dropdown {
@@ -94,26 +102,25 @@ border: 3px red;
   border-color: cyan;
 }
 a:link {
-	color: lime;
+	color: cyan;
 	font-size: 20px;
 }
 a:visited {
-	color: tomato
+	color: orange;
 }
 a:hover {
-	color: darkturquoise;
+	color: white;
 }
 
 #teal_hover:hover {
-	background-color: darkgreen;
 	width: fit-content;
 }
 
 #teal_hover:hover a:visited{
-	background-color: darkgreen;
-	color: darkturquoise;
+	color: white;
 }
 
 body {
-  background-image: url("images/p1/space.jpg");
+	background-image: url(homepage/webbsea.jpg); 
+	background-size: 100%;
 }
